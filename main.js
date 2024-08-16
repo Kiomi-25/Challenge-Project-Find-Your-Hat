@@ -5,10 +5,7 @@ const hole = "O";
 const fieldCharacter = "░";
 const pathCharacter = "*";
 
-/*step 1 : Create a method print() to print out each element in the field by run through a two-dimensional array from the first row to the last row, each row will start from the left-most element to the right most element using loop and array iterators. (Add an extra string to print out the border of the game map and more game play status.)
-step 1A : apply .join() to join the string in each row for displaying.
-step 1B : create a test field to print and inspect.
-*/
+//Create a method print() to print out each element in the field by run through a two-dimensional array from the first row to the last row, each row will start from the left-most element to the right most element using loop and array iterators. (Add an extra string to print out the border of the game map and more game play status.)
 
 class Field {
   constructor(arrField) {
